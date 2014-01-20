@@ -1,0 +1,6 @@
+// @param {string} $property
+// @return {string}
+// @api public
+@function x-config($property) {
+    @return x_compass_config($property);
+}
